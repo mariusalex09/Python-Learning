@@ -184,3 +184,12 @@ print(items)
 import random
 print(random.randint(5, 100))
 
+a = [1,2,4,2]
+my_list = [y-x for x,y in zip(a, a[1:])]
+print(my_list)
+
+def test(x, y, z):
+    print(x, y, z)
+res = test(**{'x': 1, 'y': 2, 'z': 3})
+
+
